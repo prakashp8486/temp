@@ -1,0 +1,29 @@
+# FOR random_forest_v1.PY
+Classification Accuracy: 0.788741658722593
+Confusion Matrix:
+ [[ 18  44  10  12   6  10]
+ [  0 533   8   3   5   0]
+ [  2  23  46  21   8   0]
+ [  6  20   4  54  15   1]
+ [  2  23  13  22  38   2]
+ [  6  54   4   8   5  23]]
+Precision: 0.6531190573696042
+Recall: 0.678741658722593
+F1 Score: 0.6407415649659447
+ROC-AUC Score: 0.8702833027191886
+Log Loss: 0.9662205165914897
+Classification Report:
+               precision    recall  f1-score   support
+
+    Building       0.53      0.18      0.27       100
+      Forest       0.76      0.97      0.86       549
+     Glacier       0.54      0.46      0.50       100
+   Mountains       0.45      0.54      0.49       100
+         Sea       0.49      0.38      0.43       100
+     Streets       0.64      0.23      0.34       100
+
+    accuracy                           0.68      1049
+   macro avg       0.57      0.46      0.48      1049
+weighted avg       0.65      0.68      0.64      1049
+
+Model saved successfully.
